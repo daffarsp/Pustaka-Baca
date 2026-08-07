@@ -1,59 +1,304 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 📚 Sistem Informasi Perpustakaan
 
-## About Laravel
+### Tugas Pelatihan Sertifikasi Kampus
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Sistem informasi perpustakaan berbasis **Laravel 11** yang mendukung pengelolaan buku, peminjaman, pengembalian, presensi mahasiswa, serta dashboard analitik untuk administrator.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+# 📖 Tentang Project
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Project ini merupakan **tugas pelatihan sertifikasi** yang menjadi salah satu **syarat kelulusan di kampus**.
 
-## Laravel Sponsors
+Aplikasi dikembangkan menggunakan **Laravel 11** dengan konsep **Role Based Access Control (RBAC)** sehingga terdapat dua jenis pengguna, yaitu **Admin** dan **Mahasiswa**.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Selain mengelola koleksi buku dan transaksi peminjaman, sistem ini juga menyediakan fitur **presensi kunjungan mahasiswa**, dashboard analitik menggunakan **Chart.js**, laporan cetak, hingga peminjaman buku secara mandiri melalui katalog online.
 
-### Premium Partners
+Project ini menjadi media pembelajaran yang memperdalam pemahaman mengenai:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Laravel 11
+- Authentication & Authorization
+- Middleware
+- CRUD Management
+- Relasi Database
+- Dashboard Analytics
+- Upload File & Webcam Capture
+- Reporting System
+- Role Based Access Control (RBAC)
 
-## Contributing
+---
+## 🖥️Tampilan 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="1920" height="1080" alt="Screenshot 2026-08-07 091015" src="https://github.com/user-attachments/assets/4e860018-3db4-4c35-8292-78deabc22658" />
 
-## Code of Conduct
+<img width="1920" height="1080" alt="Screenshot 2026-08-07 090848" src="https://github.com/user-attachments/assets/5212ee96-7bbc-47aa-9f1f-c435aa67b830" />
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+# ✨ Fitur Utama
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 👨‍💼 Panel Admin
 
-## License
+- Dashboard Statistik
+- CRUD Data Buku
+- CRUD Data User
+- Manajemen Peminjaman
+- Pengembalian Buku
+- Perhitungan Denda Otomatis
+- Monitoring Presensi Mahasiswa
+- Cetak Laporan
+- Grafik Peminjaman
+- Grafik Kunjungan
+- Ranking Buku Terpopuler
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🎓 Panel Mahasiswa
+
+- Dashboard Mahasiswa
+- Katalog Buku
+- Pencarian Buku
+- Peminjaman Buku Mandiri
+- Riwayat Peminjaman
+- Riwayat Presensi
+- Check In Kunjungan
+- Check Out Kunjungan
+- Upload Foto Presensi
+- Live Webcam Capture
+
+---
+
+# 🔐 Sistem Role
+
+### Admin
+
+- Mengelola seluruh sistem
+- Mengelola pengguna
+- Mengelola buku
+- Mengelola peminjaman
+- Melihat laporan
+- Dashboard statistik
+
+### Mahasiswa
+
+- Registrasi akun
+- Login
+- Melihat katalog
+- Meminjam buku
+- Presensi kunjungan
+- Melihat riwayat
+
+---
+
+# 📊 Dashboard
+
+Dashboard Admin menampilkan informasi seperti:
+
+- Total Mahasiswa
+- Total Buku
+- Buku Tersedia
+- Peminjaman Aktif
+- Grafik Kunjungan 7 Hari
+- Grafik Peminjaman 6 Bulan
+- Top 5 Buku Terpopuler
+- Mahasiswa yang Sedang Berkunjung
+
+---
+
+# 📷 Presensi Mahasiswa
+
+Sistem presensi mendukung dua metode dokumentasi:
+
+- 📸 Upload Foto
+- 🎥 Live Webcam Capture menggunakan HTML5 Camera API
+
+---
+
+# 📚 Manajemen Buku
+
+Fitur yang tersedia:
+
+- Tambah Buku
+- Edit Buku
+- Hapus Buku
+- Cetak Katalog
+- Monitoring Stok
+- Kategori Buku
+
+---
+
+# 🔄 Manajemen Peminjaman
+
+- Peminjaman Buku
+- Pengembalian Buku
+- Update Stok Otomatis
+- Denda Keterlambatan
+- Riwayat Transaksi
+- Cetak Laporan
+
+---
+
+# 🖨️ Reporting
+
+Laporan yang dapat dicetak:
+
+- Laporan Buku
+- Laporan Peminjaman
+- Laporan Pengembalian
+- Laporan Presensi Mahasiswa
+
+---
+
+# 🛠️ Teknologi
+
+- Laravel 11
+- PHP 8.2+
+- MySQL / MariaDB
+- Bootstrap 5
+- Blade Template
+- Chart.js
+- Font Awesome
+- Plus Jakarta Sans
+
+---
+
+# 🚀 Instalasi
+
+Clone repository
+
+```bash
+git clone https://github.com/username/perpustakaan-app.git
+```
+
+Masuk folder project
+
+```bash
+cd perpustakaan-app
+```
+
+Install dependency
+
+```bash
+composer install
+```
+
+Copy file environment
+
+```bash
+cp .env.example .env
+```
+
+Generate key
+
+```bash
+php artisan key:generate
+```
+
+Atur konfigurasi database pada file `.env`
+
+```env
+DB_DATABASE=perpustakaan_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Jalankan migrasi
+
+```bash
+php artisan migrate --seed
+```
+
+Jalankan server
+
+```bash
+php artisan serve
+```
+
+---
+
+# 📂 Struktur Modul
+
+```
+Admin
+├── Dashboard
+├── User
+├── Buku
+├── Peminjaman
+├── Kunjungan
+└── Laporan
+
+Mahasiswa
+├── Dashboard
+├── Katalog Buku
+├── Peminjaman
+├── Presensi
+└── Riwayat
+```
+
+---
+
+# 🎯 Pengembangan Selanjutnya
+
+Beberapa fitur yang direncanakan:
+
+- QR Code Kartu Anggota
+- QR Code Scanner Buku
+- WhatsApp Reminder
+- Email Notification
+- Export Excel
+- Export PDF
+- Payment Gateway QRIS
+- Digital Library (E-Book)
+- Approval Workflow
+- Progressive Web App (PWA)
+- Laravel Reverb (Realtime)
+- Redis Cache
+- AI Book Recommendation
+- Cloud Storage (Amazon S3 / Supabase)
+
+---
+
+# 📚 Yang Saya Pelajari
+
+Melalui project ini saya mempelajari banyak konsep penting dalam pengembangan aplikasi menggunakan Laravel, seperti:
+
+- Arsitektur MVC
+- Middleware
+- Authentication
+- Authorization
+- RBAC
+- CRUD Kompleks
+- Query Builder & Eloquent ORM
+- File Upload
+- Webcam Integration
+- Reporting
+- Dashboard Analytics
+- Relasi Database
+- Validasi Form
+- Pengelolaan Stok Buku
+- Perhitungan Denda
+
+Project ini menjadi salah satu pengalaman yang sangat berharga karena dikerjakan sebagai bagian dari **pelatihan sertifikasi** sekaligus **persiapan menuju kelulusan di kampus**.
+
+---
+
+# 👨‍💻 Author
+
+**Daffa Rahman Saputra**
+
+GitHub
+
+https://github.com/daffarsp
+
+---
+
+⭐ Jika repository ini bermanfaat, jangan lupa berikan **Star**.
